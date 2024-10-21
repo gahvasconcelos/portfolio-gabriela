@@ -9,10 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'h-gray-500': '#737994',
+        'h-blue-500': '#8CAAEE',
+        'h-blue-900': '#303446',
       },
-    },
+      width: {
+        120: '30rem',
+        125: '31.25rem',
+      },
+      height: {
+        125: '31.25rem',
+      }
+    }
   },
   plugins: [],
 };
